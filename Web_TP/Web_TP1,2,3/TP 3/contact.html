@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CyberProtect</title>
+</head>
+<body>
+    <header>
+        <h1>Contactez-nous</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Envoyez-nous un message</h2>
+            <form action="#" method="GET">
+                <p>
+                    <label for="nom">Nom complet :</label><br>
+                    <input type="text" id="nom" name="nom" required>
+                </p>
+                <p>
+                    <label for="email">Email professionnel :</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="sujet">Sujet :</label><br>
+                    <select id="sujet" name="sujet">
+                        <option value="audit">Demande d'audit</option>
+                        <option value="dev">Projet Web</option>
+                        <option value="autre">Autre</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="urgence">Niveau d'urgence (1-5) :</label><br>
+                    <input type="range" id="urgence" name="urgence" min="1" max="5">
+                </p>
+                <p>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </p>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Notre Position</h2>
+            <iframe 
+    src="https://maps.google.com/maps?q=ENSET%20Mohammedia&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+    width="800" 
+    height="450" 
+    style="border:0; width: 100%; max-width: 800px;" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Plan du site</h3>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <p>Email: contact@cyberprotect.ma | Tél: 05 22 00 00 00</p>
+        <p><small>&copy; 2026 CyberProtect. <a href="mentions-legales.html">Mentions Légales</a>.</small></p>
+    </footer>
+</body>
+</html>
