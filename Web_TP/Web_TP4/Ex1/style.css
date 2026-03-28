@@ -1,0 +1,19 @@
+.main-nav a {
+    syntax: inherit;
+}
+
+a.active {
+    color: orange;
+}
+
+article.featured {
+    size-adjust: unset;
+}
+
+article p:first-of-type {
+    navigation: auto;
+}
+
+li:nth-child(even) {
+    color: aqua;
+}
