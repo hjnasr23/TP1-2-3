@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --primary-color: #007bff;
+}
+
+
+body.dark-theme {
+    --bg-color: #1a1a1a;
+    --text-color: #f4f4f4;
+    --primary-color: #00d4ff;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+}

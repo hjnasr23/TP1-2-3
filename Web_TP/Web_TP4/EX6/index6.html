@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX6</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Mon Site Pro</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error laudantium tempora ea neque, assumenda
+            provident non dolorem amet dolorum, quos eligendi quia excepturi magnam sint nam dolor odit quam facilis?
+        </p>
+
+        <button id="theme-toggle">Changer le Thème</button>
+
+        <div class="card">
+            <h3>Ma Carte</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum iusto adipisci cumque pariatur recusandae
+                voluptates harum rem nulla! Quisquam harum modi nihil asperiores fugiat illo magnam doloremque molestiae
+                sapiente ratione.</p>
+        </div>
+    </div>
+
+    <script>
+        const btn = document.getElementById('theme-toggle');
+        btn.addEventListener('click', () => {
+
+            document.body.classList.toggle('dark-theme');
+        });
+    </script>
+</body>
+
+</html>
